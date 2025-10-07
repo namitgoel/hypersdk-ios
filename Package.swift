@@ -15,6 +15,7 @@ let package = Package(
     dependencies: [
         .package(name: "JuspaySafeBrowser", url: "https://github.com/juspay/juspaysafebrowser-ios.git", .exact("0.1.88")),
         .package(name: "HyperCore", url: "https://github.com/juspay/hypercore-ios.git", .exact("0.0.10")),
+        .package(name: "Airborne", url: "https://github.com/juspay/airborne.git", .exact("0.7.3"))
     ],
     targets: [
         .binaryTarget(
